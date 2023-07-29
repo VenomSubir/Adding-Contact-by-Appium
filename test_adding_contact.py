@@ -42,7 +42,7 @@ first_name_field.send_keys("Subir")
 
 # Wait until the 'Last name' field is present and visible
 last_name_field = wait.until(EC.visibility_of_element_located((By.XPATH, "//android.widget.EditText[@text='Last name']")))
-last_name_field.send_keys("Kundu")
+last_name_field.send_keys("Kundo")
 
 # Wait until the 'Company' field is present and visible
 company_field = wait.until(EC.visibility_of_element_located((By.XPATH, "//android.widget.EditText[@text='Company']")))
